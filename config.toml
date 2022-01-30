@@ -1,0 +1,10 @@
+[default]
+address = "127.0.0.1"
+port = 8004
+workers = 1
+keep_alive = 0
+log_level = "normal"
+
+[default.databases.database]
+url = "db.sqlite"
+timeout = 10
